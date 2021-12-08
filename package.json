@@ -34,8 +34,8 @@
 		"types": "tsc",
 		"build": "prettier -c src && npm run types && npm run bundle && agadoo src/index.js",
 		"format": "prettier -w src",
-		"test": "uvu src \".\\.spec\\.js\"",
-		"prepublishOnly": "npm test && npm run build"
+		"test": "uvu src \".\\.spec\\.js\""
+		
 	},
 	"license": "MIT"
 }
